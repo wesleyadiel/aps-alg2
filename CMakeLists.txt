@@ -3,4 +3,4 @@ project(APS C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(APS main.c)
+add_executable(APS main.c logo.h)
