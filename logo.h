@@ -19,9 +19,14 @@ void desenhar(int x,int y)
 
 void chamaTela()
 {
+<<<<<<< HEAD
     int margem;
 
     for (margem=41; margem <127; margem++)
+=======
+    int borda;
+    for (borda=41; borda <127; borda++)
+>>>>>>> 65d8f16384de5abf1b8554dc25ffc687f964b691
     {
 
         if (margem>46 && margem <53 || margem==59 || margem==60 || margem==67 || margem==68 || margem==75 || margem==76 || margem==83 || margem==84 || margem==91
