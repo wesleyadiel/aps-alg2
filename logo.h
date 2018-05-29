@@ -20,7 +20,6 @@ void desenhar(int x,int y)
 void chamaTela()
 {
     int borda;
-
     for (borda=41; borda <127; borda++)
     {
 
