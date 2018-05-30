@@ -18,20 +18,13 @@ void desenhar(int x,int y)
 }
 
 void chamaTela() {
-    int margem;
+    int margem = 0;
 
     for (margem = 41; margem < 127; margem++) {
-        int borda;
-        for (borda = 41; borda < 127; borda++) {
 
-            if (margem > 46 && margem < 53 || margem == 59 || margem == 60 || margem == 67 || margem == 68 ||
-                margem == 75 || margem == 76 || margem == 83 || margem == 84 || margem == 91
-                || margem == 92 || margem == 99 || margem == 100 || margem > 106 && margem < 113 || margem == 119 ||
-                margem == 120 || margem > 87 && margem < 91) {
-
+            if (margem > 46 && margem < 53 || margem == 59 || margem == 60 || margem == 67 || margem == 68 || margem == 75 || margem == 76 || margem == 83 || margem == 84 || margem == 91 || margem == 92 || margem == 99 || margem == 100 || margem > 106 && margem < 113 || margem == 119 || margem == 120 || margem > 87 && margem < 91) {
                 printf(" ");
             } else {
-
                 desenhar(margem, 5);
                 printf("%c", 219);
             }
@@ -183,6 +176,6 @@ void chamaTela() {
             }
         }
     }
-}
+
 #endif //APS_LOGO_H
 

@@ -123,7 +123,7 @@ void inicio()
     printf("\n");
     //fum();
 }
-
+/*
 void fum(){
     printf("Decidido a penetrar no castelo de Arsenal, voce reune suas \"ferramentas\" de ladrao: as fieis gazuas para forcar fechaduras, a lanterna feita com uma pedra iluminada por magia, e a adaga que ja cortou varias gargantas. Cordas e ganchos de escalada nao sao necessarios ha muito tempo - afinal, voce e o Aranha! Ha ainda um ultimo \"equipamento\" que voce gostaria de ter consigo, e custara apenas algumas canecas de cerveja: indo ao setor de animais treinados por Guilda, voce \"convence\" o adestrador a emprestar-lhe um de seus macacos - bichinhos muito uteis para bater carteiras ou penetrar em lugares protegidos para destrancar portas por dentro. Agora, com o mico sobre seu ombro, voce acredita estar pronto para o desafio. Pronto? Bem, talvez nem tanto. Quando invadiram o castelo de Arsenal, voce contava com a ajuda dos magos poderosos e guerreiros embrutecidos para enfrentar o vilao. Ir sozinho seria uma grande imprudencia. Quem poderia ajuda-lo? Ha tempos nao tem noticias de seus antigos colegas, mas... ainda resta na cidade alguem do grupo original. Parx Methralian, um sacerdote dos Deuses da Trapaca. Por tras da aparencia inofensiva de clerigo, era um assaltante quase tao habilidoso quanto voce - e seus poderes magicos ajudariam bastante. Se voce deseja convidar Parx para participar do roupa, va para 24. Se nao confia no clerigo trapaceiro e prefere agir sozinho, digite 37.");
             scanf(" %c", &choice);
@@ -190,7 +190,7 @@ void fcinco(){
     } else {
         fcinco();
     }
-}
+}*/
 
 
 
