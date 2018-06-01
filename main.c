@@ -63,10 +63,11 @@ char choice;
 
 int main()
 {
-    fullscreen();
+
     char inicia;
 
     chamaTela();
+    fullscreen();
     setlocale(LC_ALL, "Portuguese");
     printf("\n\n\n\n");
     printf("\t\t\t\t\t\t\t   Deseja iniciar o jogo? (S/N)\n\n");
