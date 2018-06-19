@@ -102,7 +102,7 @@ void imprimeTexto(char palavra[])
                 }
                 printf("%c", palavra[i]);
 
-                if(palavra[i] == '.'){
+                if(palavra[i] == '.' || palavra[i] == '!' || palavra[i] == ':'){
                     if(palavra[i+1] == '-'){
                         printf("\n");
                         printf("\t\t");
