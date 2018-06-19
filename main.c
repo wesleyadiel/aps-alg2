@@ -124,7 +124,7 @@ void imprimeTexto(char palavra[])
 
 void inicio()
 {
-    //imprimeTexto("Um ladrao cheio de truques e um clerigo trapaceiro em aventuras desonestas.... Seu nome e Andrus, \"o Aranha\", um renomado ladrao profissional. Depois de uma vida errante de aventuras e grandes assaltos. Voce decidiu estabelecer- se na metropole de Kristophania - um lugar calmo para pessoas de seu ramo. Voce associa-se a Guilda de Ladroes Local, uma especie de sindicato do crime, que detem o monopolio das atividades criminais na cidade. Associar-se a Guilda traz muitas vantagens: garante informacoes valiosas e protecao contra a policia em troca de uma porcentagem do produto de assaltos, sem falar que todos os ladroes agindo fora da sguilda sao cacados - tanto pelas policias como por outros ladroes! Participar da Guilda, contudo, esta mostrando-se mais tedioso do que esperava. Acabaram-se os desafios, as coisas estao faceis demais. Voce chegou mesmo a realizar alguns assaltos \"nao autorizados\", enriquecendo seu tesouro pessoal sem que a diretoria da Guilda ficasse sabendo. Talvez seja a hora de almejar planos mais elevados: a chefia da Guilda! Sim, essa poderia ser uma coroacao digna de sua carreira. Mas como? O chefao atual e fraco e descuidado - mas mesmo voce nao se atreveria a enfrentar seus guardas-costas, assassinos mais perigosos que muitos guardas do palacio do Rei. Seria loucura tentar isso sem... magica. Magica... isso lhe recorda algo sobre suas antigas aventuras, quando voce atuava na companhia de um grupo de herois: um barbaro com um grifo, um monge mascarado, uma donzela gladiadora, um anao malcheiroso e outros tipos bem estranhos, mas otimos quando musculos se faziam necessarios. Naquela epoca voces invadiram a fortaleza do vilao conhecido como Mestre Arsenal - um famigerado colecionardor de armas e armaduras magicas. La voce conseguiu a capa magica que rendeu-lhe seu apelido: a capa permite ao usuario subir pelas paredes como uma aranha, e disparar teias pelas maos. Um artefato util em sua atividade, sem duvida, mas que nao ajudaria muito na conquista da chefia da Guilda. Talvez seja hora de fazer outra visita ao velho Arsenal...");
+    printf("Um ladrao cheio de truques e um clerigo trapaceiro em aventuras desonestas.... Seu nome e Andrus, \"o Aranha\", um renomado ladrao profissional. Depois de uma vida errante de aventuras e grandes assaltos. Voce decidiu estabelecer- se na metropole de Kristophania - um lugar calmo para pessoas de seu ramo. Voce associa-se a Guilda de Ladroes Local, uma especie de sindicato do crime, que detem o monopolio das atividades criminais na cidade. Associar-se a Guilda traz muitas vantagens: garante informacoes valiosas e protecao contra a policia em troca de uma porcentagem do produto de assaltos, sem falar que todos os ladroes agindo fora da sguilda sao cacados - tanto pelas policias como por outros ladroes! Participar da Guilda, contudo, esta mostrando-se mais tedioso do que esperava. Acabaram-se os desafios, as coisas estao faceis demais. Voce chegou mesmo a realizar alguns assaltos \"nao autorizados\", enriquecendo seu tesouro pessoal sem que a diretoria da Guilda ficasse sabendo. Talvez seja a hora de almejar planos mais elevados: a chefia da Guilda! Sim, essa poderia ser uma coroacao digna de sua carreira. Mas como? O chefao atual e fraco e descuidado - mas mesmo voce nao se atreveria a enfrentar seus guardas-costas, assassinos mais perigosos que muitos guardas do palacio do Rei. Seria loucura tentar isso sem... magica. Magica... isso lhe recorda algo sobre suas antigas aventuras, quando voce atuava na companhia de um grupo de herois: um barbaro com um grifo, um monge mascarado, uma donzela gladiadora, um anao malcheiroso e outros tipos bem estranhos, mas otimos quando musculos se faziam necessarios. Naquela epoca voces invadiram a fortaleza do vilao conhecido como Mestre Arsenal - um famigerado colecionardor de armas e armaduras magicas. La voce conseguiu a capa magica que rendeu-lhe seu apelido: a capa permite ao usuario subir pelas paredes como uma aranha, e disparar teias pelas maos. Um artefato util em sua atividade, sem duvida, mas que nao ajudaria muito na conquista da chefia da Guilda. Talvez seja hora de fazer outra visita ao velho Arsenal...");
     printf("\n");
     printf("\n");
     fum();
@@ -217,17 +217,11 @@ void fseis(){
 }
 
 void fsete(){
-    choice = NULL;
     system("cls");
     imprimeTexto("Arsenal e recluso, mas dificilmente resistiria a uma conversa com negociantes de objetos magicos. Ocultos sob seus disfarces, voces aproximam-se da torre e batem a porta. Sao recebidos por um 'modormo' bem peculiar: parece um guerreiro usando uma couraca completa - mas um olhar atento revela que nao existe ninguem por tras das fendas do elmo. -Quem deseja falar com meu senhor? - diz a armadura vazia, com arrepiante voz metalica. -Ouvimos faalar da magnifica colecao de Arsenal - voce declara - , e viemos negociar artefatos com ele. Por um instante a armadura fica inerte, como se pensar fosse um esforco grande demais. Entao ela coloca-se de lado e, com um gesto, convida-os a entrar. -Meu senhor ira recebe-los. Voces sao instruidos a aguardar em um saguao de entrada, luxuosamente decorado - um contraste violento com o desgaste das paredes externas. Ha varias armaduras perfiladas junto as paredes (inanimadas, voce espera) e uma grande lareira ao norte. Entao um arrepio pavoroso percorre seus ossos: sobre a leitura voce reconhece um tridente magico, aquele que haviia sido levado por Silvius Marithimus, um gladiador que fazia parte do grupo original de herois. Se Arsenal recuperou o tridente, entao... Silvius esta morto! Seus ouvidos percebem passos pesados descendo uma escada proxima. em repentino desespero, voce olha para a propria capa magica e para o cajado de Parx: por certo Arsenal ira reconhecer seus pertences roubados! - Vamos cair fora daqui - voce diz a Parx, enquanto corre para a porta. Movidos por pura adrenalina, voces conseguem abrir a pesada porta e sumir nas montanhas. Escondidos entre as rochas, ficam aliviados quando percebem que nao foram seguidos - mas agora sera duas vezes mais perigoso penetrar na torre, pois Arsenal estara desconfiado. Isso ensina voce a escutar Parx e suas ideias idiotas! Enquanto espera a noite cair, va para 26.");
-    printf(" qualquer tecla para continuar...");
-    scanf("%d", &choice);
+    system("pause");
 
-    if(choice != NULL){
-        fvinte6();
-    } else {
-        fsete();
-    }
+    fvinte6();
 }
 void foito(){
     system("cls");
@@ -247,17 +241,11 @@ void foito(){
 }
 
 void fnove(){
-    choice = NULL;
     system("cls");
     imprimeTexto("Voce saca suas ferramentas e tenta forcar a fechadura, mas de nada adianta: ela e de excelente qualidade, a prova de arrombadores, e mesmo sua tecnica mostra-se inutil. Depois de mais alguns minutos de tentativas, voce desiste. Agora so resta pegar o corredor da direita. Va para 6.");
+    system("pause");
 
-    scanf("%d", &choice);
-
-    if(choice != NULL){
-        fseis();
-    } else {
-        fnove();
-    }
+    fseis();
 }
 
 void fdez(){
@@ -281,17 +269,11 @@ void fonze(){
 }
 
 void fdoze(){
-    choice = NULL;
     system("cls");
     imprimeTexto("Voce imagina que uma proposta de adesao a Guilda dos Ladroes possa interessar a Arsenal. Nao haveria provlema em apresentar-se como membro da Guilda, porque voce o e de fato. Claro que a atual diretoria nao sabe que Arsenal esta sendo convidado, mas isso nao sera problema quando voce tornar-se chefe. Oculto sob seus disfarces, voces aproximam-se da torre e batem a porta. Sao recebidos por um 'modormo' bem peculiar; parece um guerreiro usando uma couraca completa - mas um olhar atento revela que nao existe ninguem por tras das fendas do elmo. - Quem deseja falar com meu senhor? - diz a armadura vaia, com arrepiante voz metalica. Voce usa sua labia para tentar convencer aquela coisa de que tem uma proposta interessannte para seu patrao, ao mesmo tempo em que tenta espiar o interior. Parece que pouco mudou desde sua ultima visita: ha novas armaduras perfiladas junto as paredes, e uma lareira ao norte. - Meu senhor nao negocia com ladroes - diz a armadura, encerrando a conversa e levando a mao a espada na cintura. Voces fogem correndo e, aliviados, percebem que o guarda de Arsenal nao os perseguiu; apenas fechou a porta novamente. - Voce e seus disfarces idiotas! - voce reclama. - Agora Arsenal sabe que ha ladroes rondando seu castelo. Vamos precisar de cuidado redobrado. -Nao olhe pra mim. Foi sua essa ideia nada sabia de convidar Arsenal para a Guilda. Resmugando, voce espera o anoitecer. Va para 26.");
-    printf("Insira qualquer valor para continuar...");
-    scanf("%d", &choice);
+    system("pause");
 
-    if(choice != NULL){
-        fvinte6();
-    } else {
-        fdoze();
-    }
+    fvinte6();
 }
 
  void ftreze(){
@@ -416,17 +398,10 @@ void fvinte3(){
 
 void fvinte4(){
     system("cls");
-    choice = NULL;
     imprimeTexto("Voce ruma para o templo escondido onde Parx realiza seus cultos aos Deuses da Trapaca, certo de que vai encontra-lo tentando convencer seus seguidores a livrarem-se dos 'bens materiais', doando-os a igreja. Chegando la, contudom nao encontra ninguem. - Procurando por mim, Andrus? - diz uma voz sobre seu ombro. Voce vira-se veloz, e descobre o clerigo bem atras de voce. Como o maldito era matreiro! Apenas um ladrao muito experiente podia aproximar-se daquele jeito, pelas costas, de um outro ladrao. Voce olha para seu cajado de aparencia inofensiva, mas sabe que e so aparencia mesmo: tambem foi roubado da colecao de Arsenal, e e uma arma magica poderosa - podendo transformar-se em uma destruidora maca de duas maos. Voce ja viu-a em acao, transformando cranios de ogres em pure. Voce explica seus planos a Parx. Ele sorri e afaga o simbolo sagrado, dizendo: - Certamente os deuses vao nos ajudar nessa empreitada, amigo Andrus. Mas tenho plena certeza de que a ajuda seria maior se o futuro chefe da Guilda fizesse certos votos de devocao a causa da Trapaca... Entendendo o que o matreiro Parx tenta dizer, voce garante que o culto de Parx ganhara um novo templo e maiores contribuicoes da Guilda quando a chefia mudar de maos. Ele aceita o trato e voces partem em viagem. Entao voce percebe que seu mico fugiu. Que diabos! Sob os efeitos da cerveja, o maldito adestrador deve ter escolhido um animal ainda sem treinamento. Voce sabera o que fazer com ele quando tornar-se o chefe. Mas, pensando bem, talvez o macaco nao tenha fugido. Uma possibilidade atravessa sua mente, mas e tao assustadora que voce acha melhor nem pensar nela. Va para 10.");
-    printf("Insira qualquer valor para continuar...");
+    system("pause");
 
-    scanf("%d", &choice);
-
-    if(choice != NULL){
-        fdez();
-    } else {
-        fvinte4();
-    }
+    fdez();
 }
 
 void fvinte5(){
@@ -493,18 +468,10 @@ void ftrinta(){
 
 void ftrinta1(){
     system("cls");
-    choice = NULL;
     imprimeTexto("Cansados de sutilezas, voce se arma com a espada que pegou dos guardas e derruba a porta com um chute. A visao do interior e aterradora: um cadaver ossudo que parece jogado em um canto olha para voce e levanta-se, avancando para lutar. Parx segura seu medalhao e prepara-se para esconjurar a criatura, mas voce o detem: esta farto desses monstros, e quer destruir pelo menos um deles com as proprias maos. Veloz em suas maos, a espada decepa a cabeca do morto-vivo, e depois um braco, e outro... ate que restem apenas pedacos. Voce examina a sala em busca de algo importante, e encontra: uma chave pendurada na parede oposta. Com certeza o zumbi estava ali para guarda-lo. Pegando a chave, voce e Parx decidem que nao ha mais nada a fazer aqui e retorna a bifurcacao, pegando o corredor da esquerda. O corredor leva a uma porta trancada. Voce experimenta a chave, e ela funciona: a porta se abre. Va para 23.");
-    printf("Insira qualquer valor para continuar...");
+    system("pause");
 
-
-    scanf("%d", &choice);
-
-    if(choice != NULL){
-        fvinte6();
-    } else {
-        ftrinta1();
-    }
+    fvinte6();
 }
 
 void ftrinta2(){
@@ -524,17 +491,10 @@ void ftrinta2(){
 
 void ftrinta3(){
     system("cls");
-    choice = NULL;
     imprimeTexto("Voce agarra o colar de contas, reconhecendo-o como sendo parecido com aquele usado por um ranger amigo seu. As contas do colar sao explosivas. Voce arranca a maior delas e arremessa contra Arsenal, cobrindo os olhos para proteger-se da explosao. Quando olha novamente, descobre Arsenal ainda de pe, com o peito fumegando. -Pobre tolo! - diz ele. - E preciso muito mais do que isso para acabar comigo. -Sera mesmo? - voce pergunta, sorrindo, quando uma ideia traicoeira atravessa sua mente. Voce toma outra conta do colar e arremessa... mas nao contra Arsenal. Desta vez voce faz pontaria no chao, entre seus pes. Como voce planejou, o chao nao resiste e desaba - levando Arsenal consigo. -Muito engenheso, amigo Andrus - diz Parx, aproximando-se da beirada do buraco e olhando la embaixo. Isso provavelmente nao vai matar Arsenal, mas ira dete-lo ate que estejamos longe. E melhor irmos logo, contudo. Ele esta certo. Va para 35.");
-    printf("Insira qualquer valor para continuar...");
+    system("pause");
 
-    scanf("%d", &choice);
-
-    if(choice != NULL){
-        ftrinta5();
-    } else {
-        ftrinta3();
-    }
+    ftrinta5();
 }
 
 void ftrinta4(){
@@ -556,47 +516,26 @@ void ftrinta4(){
 
 void ftrinta5(){
     system("cls");
-    choice = NULL;
     imprimeTexto("Tendo vencido Arsenal, voce pode examinar sua colecao com mais calma. Dentre uma infinidade de itens, voce encontra o que parece ser um chapeu vulgar - mas e exatamente o que procurava... va para 40.");
-    printf("Insira qualquer valor para continuar...");
+    system("pause");
 
-    scanf("%d", &choice);
-
-    if(choice != NULL){
-        fquarenta();
-    } else {
-        ftrinta5();
-    }
+    fquarenta();
 }
 
 void ftrinta6(){
     system("cls");
-    choice = NULL;
     imprimeTexto("A torre de Arsenal esta mesmo deixando voce paranoico - mas cuidado nunca e demais neste lugar. Com suas ferramentas, voce fuca a base da tocha. Descobre de fato um macanismo, mas nao sabe dizer se vai ativar uma armadilha ou uma porta secreta. Voce tera que arriscar. Va para 13.");
-    printf("Insira qualquer valor para continuar...");
+    system("pause");
 
-    scanf("%d", &choice);
-
-    if(choice != NULL){
-        ftreze();
-    } else{
-        ftrinta6();
-    }
+    ftreze();
 }
 
 void ftrinta7(){
     system("cls");
-    choice = NULL;
     imprimeTexto("Talvez nao seja uma boa ideia confiar em Methralian. ele tem uma posicao de prestigio dentro da Guilda, e uma mudanca da diretoria pode nao ser de seu agrado. Achando mais prudente agir sem o clerigo, voce parte na direcao do castelo de Arsenal. Quando voce comeca sua viagem, uma vozinha soa perto de seu ouvido: - Partindo para uma aventura sem seu colega, Aranha? A mencao de seu apelido no submundo, voce se vira com a adaga em punho - mas nao encontra ninguem. Olha a volta, consufo, e descobre que esta mesmo sozinho. Sozinho, exceto por... Voce olha para o mico em seu ombro. Ele traz um sorriso no pequeno rosto. - Parx! - voce grita, tentando acertar um tabefe no bicho. Ele se esquiva e pula para o chao, sendo logo envolvido por uma luz magica e distorcida; aos poucos, as formas do macaco desaparecem para dar lugar ao sacerdote Parx Methralian. Agora voce se lembra: seus deuses concedem a ele o poder de transformar-se em macaco. -Seu trapaceiro dos infernos! Quantas vezes tive voce sobre meu ombro, pensando tratar-se de um mico comum? -Muitas, garanto. Mas nao se enfureca tanto, velho amigo; se eu realmente quisesse atraicoa-lo, ja teria denunciado a diretoria suas atividades clandestinas. Acalmando-se, voce percebe que aquilo pode muito bem ser verdade. Parx era assim mesmo: trapaceava por simples devocao aos deuses, sem grandes ambicoes materiais ou sociais. Se quisesse trair voce para conquistar mais prestigio dentro da Guilda, ja teria feito. Voce resolve que pode confiar nele, afinal. Revela seu plano, e assiste-o acariciar o cajado magico que conseguiu no castelo de Arsenal. - Um convite tentador, amigo Andrus. Este sacerdote anda um pouco saudoso dos bons tempos de batalha. E sera bom ter um velho amigo como chefe da Guilda. Vamos, pois, a procura do bom Mestre Arsenal. Va para 10.");
-    printf("Insira qualquer valor para continuar...");
+    system("pause");
 
-    scanf("%d", &choice);
-
-    if(choice != NULL){
-        fdez();
-    } else {
-        ftrinta7();
-    }
+    fdez();
 }
 
 void ftrinta8(){
