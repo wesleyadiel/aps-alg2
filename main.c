@@ -7,7 +7,12 @@
 #include <math.h>
 #include "logo.h"
 #include <stdio.h>
-
+/*
+DESENVOLVEDORES:
+-Wesley Adiel Alves de lima
+-Sara Vendramini
+-Barbara Pacheco
+*/
 
 //Utilizado recursão para não ter que ficar implementando laço de repetição
 void inicio();
